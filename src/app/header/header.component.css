@@ -1,0 +1,50 @@
+
+.header-section {
+    background-color: whitesmoke;
+    color: deeppink;
+    font-size: 2em;
+    animation-name: headerAnimation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-top: 2em;
+}
+#index-image{
+    width: 100%;
+    height: 200px;
+}
+@keyframes headerAnimation {
+    from {background-color: whitesmoke; color: deeppink;}
+    to {background-color: blueviolet; color: white;}
+}
+.header-section h1, .header-section p {
+    text-align: center;
+    display: block;
+}
+
+.top-nav {
+    top: 0px;
+    position: fixed;
+    overflow: hidden;
+    width: 100%;
+    height: 4em;
+    margin-bottom: 10px;
+    background-color: #333;
+    z-index: 100;
+}
+.top-nav a {
+    text-decoration: none;
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 14px;
+    font-size: 17px;
+    border: 5px solid darkolivegreen;
+}
+.top-nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.top-nav a:active {
+    background-color: #4CAF50;
+    color: white;
+}
